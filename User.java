@@ -19,8 +19,9 @@ public class User {
 
 		String name = scanner.next();
 
-		User user1 = new User (name);
-
-		user1.greet();
+		if (name.equals("Alice") || name.equals("Bob")) {
+			User user1 = new User (name);
+			user1.greet();
+		}
 	}
 }
