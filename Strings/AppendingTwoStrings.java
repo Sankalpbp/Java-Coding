@@ -15,6 +15,13 @@ public class AppendingTwoStrings {
 			a += b.charAt(i);
 		}
 
+		/*
+			Or we can simply use:
+			String c = a.concat(b);
+			This will return the concatenated string
+
+		   */
+
 		System.out.println(a);
 	}
 }
