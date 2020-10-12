@@ -10,9 +10,10 @@ public class LinkedList {
 			
 		int x = 0;
 		Node ptr = null;
+		String s = input.readLine ();
 
-		do {
-			x = Integer.parseInt(input.readLine());
+		while (s.equals("exit") == false) {
+			x = Integer.parseInt(s);
 			Node newNode = new Node (x);
 			if (head == null) {
 				head = newNode;
@@ -21,7 +22,9 @@ public class LinkedList {
 				ptr.next = newNode;
 				ptr = ptr.next;
 			}
-		} while (x != -1);
+
+			s = input.readLine ();
+		}
 	}
 
 	public void traverse () {
