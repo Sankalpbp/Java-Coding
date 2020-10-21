@@ -12,3 +12,4 @@ Have a look:
 3. Strings Problems. 
 4. Linked List Problems. 
 5. Stack Problems
+6. Queue Problems
